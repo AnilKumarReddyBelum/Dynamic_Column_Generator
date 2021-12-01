@@ -4,7 +4,7 @@ import com.example.model.Payload;
 
 public interface DynamicProductService {
 
-    Object insert(Payload payload);
+    String insert(Payload payload);
 
-    Object update(Payload payload);
+    String update(Payload payload);
 }
