@@ -29,13 +29,13 @@ public class ConfigController {
     }
 
     @PostMapping("insert")
-    public void insertData(@RequestBody Payload payload) {
-        dynamicProductService.insert(payload);
+    public String insertData(@RequestBody Payload payload) {
+        return dynamicProductService.insert(payload);
     }
 
     @PostMapping("update")
-    public void updateData(@RequestBody Payload payload) {
-        dynamicProductService.update(payload);
+    public String updateData(@RequestBody Payload payload) {
+        return dynamicProductService.update(payload);
     }
 
 }
