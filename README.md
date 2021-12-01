@@ -60,6 +60,8 @@ Id will ge Generated automatically, so we are neglecting the id, even if you sup
 #Demo
 
 ![dynamic-column-generator](https://user-images.githubusercontent.com/11975625/144183265-eb1f247b-c2e1-42ad-842c-89e9e82b0b5d.gif)
+![dynamic-column-generator-update](https://user-images.githubusercontent.com/11975625/144212200-f8b369b0-682f-4dae-bac4-f072d1c0ca54.gif)
+
 
 
 
