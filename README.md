@@ -36,6 +36,19 @@ PAYLOAD:
 	"entityData": {"id": 12321, "name":"Product Number 7", "details": "Tetsing"}
 }
 
+URL:
+------------------------------
+http://localhost:8080/config/update
+
+PAYLOAD:
+-------------------------------------
+{
+	"tableName": "product",
+	"schemaName": "public",
+	"entityData": {"id": 33, "name":"Product Number 7-33", "details": "Tetsing33"}
+}
+
+
 
 #NOTE
 
